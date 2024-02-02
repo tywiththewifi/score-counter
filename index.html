@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta chartset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Container Start -->
+        <main class="container">
+            
+            <!-- Home Start -->
+            <div class="home">
+                
+                <h3>HOME</h3>
+                <div class="scoreboard-home">
+                    <p id="home-score">0</p>
+                </div>
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button onclick="addOneHome()">+1</button>
+                    <button onclick="addTwoHome()">+2</button>
+                    <button onclick="addThreeHome()">+3</button>
+                    <button onclick="resetHome()">RESET</button>
+                </div>
+
+                <!-- Home End -->
+            </div>
+
+            <!-- Guest Start -->
+            <div class="guest">
+
+                <h3>GUEST</h3>
+
+                <div class="scoreboard-guest">
+                    <p id="guest-score">0</p>
+                </div>
+                
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button onclick="addOneGuest()">+1</button>
+                    <button onclick="addTwoGuest()">+2</button>
+                    <button onclick="addThreeGuest()">+3</button>
+                    <button onclick="resetGuest()">RESET</button>
+                </div>
+
+                <!-- Guest End -->
+            </div>
+
+            <!-- Container End -->
+        </main>
+
+        <!-- Javascript -->
+        <script src="index.js"></script>
+
+    </body>
+</html>

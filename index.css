@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; 
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(/Users/tylercaldwell/Library/Fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+#home-score, #guest-score {
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.scoreboard-guest, .scoreboard-home {
+    background-color: black;
+    margin: 0px;
+    max-width: 155px;
+    max-height: 120px;
+    border-radius: 6px;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 155px;
+}
+
+button {
+    background-color: #1B244A;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    color: #9AABD8;
+    font-family: "Cursed Timer ULiL";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
