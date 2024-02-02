@@ -44,3 +44,5 @@ function resetGuest() {
     guestScore.textContent = guestCount
 }
 
+
+
